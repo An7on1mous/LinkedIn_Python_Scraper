@@ -36,7 +36,7 @@ browser = webdriver.Chrome(options=options)
 browser.get(f'https://www.linkedin.com/jobs/search/?keywords=Business%20Analyst&location=Toronto&position=1&pageNum=0')
 
 # Set the number of pages to scrape
-pages = 100
+pages = 10
 
 # Loop through the specified number of pages to retrieve job postings
 for i in range(pages):
